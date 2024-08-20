@@ -1,9 +1,9 @@
 {
   "app": {
-    "title": "zalo_shop",
+    "title": "Hàng Thái Chính Hãng",
     "headerColor": "",
     "textColor": "white",
-    "statusBarColor": "#EF1724",
+    "statusBarColor": "#ff7000",
     "leftButton": "none"
   },
   "debug": false,

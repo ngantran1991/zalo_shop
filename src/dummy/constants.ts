@@ -43,10 +43,10 @@ export const listProductOptions: Options[] = [
 ];
 
 export const listCategories = [
-  "Tất cả sản phẩm",
-  " Quần áo",
-  "Dụng cụ thể thao",
-  "Giày dép",
+  // "Tất cả sản phẩm",
+  "Thuốc Rắn",
+  "Mật Ong",
+  "Dầu Thái",
 ];
 export const listAddress = [
   "TP Hồ Chí Minh",

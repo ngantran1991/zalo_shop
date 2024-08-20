@@ -74,12 +74,13 @@ export const activeFilterState = atom<string>({
 export const storeProductResultState = selector<Product[]>({
   key: "storeProductResult",
   get: ({ get }) => {
-    get(activeCateState);
+    const activeCate = get(activeCateState);
     get(searchProductState);
 
     const store = get(storeState);
-    const pos = getRandomInt(store.listProducts.length - 122, 0);
-    const num = getRandomInt(120, 50);
+    console.log(activeCate);
+    const pos = activeCate * 3;
+    const num = 3;
     return [...store.listProducts.slice(pos, pos + num)];
   },
 });
